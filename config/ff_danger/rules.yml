@@ -1,0 +1,5 @@
+---
+rules:
+  - FfDanger::DeleteAllRule
+  - FfDanger::XssVulnerabilityRule
+  - FfDanger::NewSidekiqWorker

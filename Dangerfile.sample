@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+require 'yaml'
+
+rules = YAML.safe_load(File.read('./config/Ff_dange/rules.yml')).fetch('rules', [])
+
+require 'ff_danger'
+
+FfDanger::Rules.new(self, rules).check!
