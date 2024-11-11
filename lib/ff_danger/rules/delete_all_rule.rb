@@ -9,7 +9,7 @@ module FfDanger
         lines_from_file(path).each do |line|
           if line.content.match(delete_all_regex)
             unless line.content.match(no_danger_comment_re)
-              warning(delete_all_warning, file: path, line: line.number)
+              message(delete_all_warning, file: path, line: line.number)
             end
           end
         end
