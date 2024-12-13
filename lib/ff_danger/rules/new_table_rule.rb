@@ -11,7 +11,7 @@ module FfDanger
       When adding a new table, please be sure to:
 
       1. Check for indexes.
-      2. Consult with FF DB team.
+      2. Consult with FF DB/DevOps Team team.
     MESSAGE
 
     def check!
