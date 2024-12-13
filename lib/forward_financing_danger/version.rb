@@ -3,7 +3,7 @@
 module ForwardFinancingDanger
   MAJOR = 0
   MINOR = 1
-  TINY  = 12
+  TINY  = 13
 
   VERSION = [MAJOR, MINOR, TINY].compact.join('.')
 end
