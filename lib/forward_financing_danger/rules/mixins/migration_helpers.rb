@@ -3,7 +3,10 @@
 module MigrationHelpers
 
   def create_table?(migration)
-    lines_from_file(migration).any? { |line| line.content.match?(/create_table/) }
+    lines_from_file(migration).any? do |line|
+      puts line.content
+      line.content.match?(/create_table/)
+    end
   end
 
   # Determines if migration contains a backfill.
