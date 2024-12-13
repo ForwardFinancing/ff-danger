@@ -2,7 +2,7 @@
 
 require_relative './ast_stack'
 
-module FfDanger
+module ForwardFinancingDanger
   class ScopeExpander
     class Matcher
       attr_reader :name

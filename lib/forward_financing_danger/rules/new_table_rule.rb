@@ -3,8 +3,8 @@
 require_relative './rule'
 require_relative './mixins/migration_helpers'
 
-module FfDanger
-  class NewTableRule < FfDanger::Rule
+module ForwardFinancingDanger
+  class NewTableRule < ForwardFinancingDanger::Rule
     include MigrationHelpers
 
     MESSAGE = <<~MESSAGE

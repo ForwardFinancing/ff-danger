@@ -6,7 +6,7 @@ require_relative '../../scope_expander'
 require_relative './config'
 require_relative './scanner'
 
-module FfDanger
+module ForwardFinancingDanger
   class BlockOwnerRule
     class Checker
       Alert = Struct.new(:message, :path, :line)

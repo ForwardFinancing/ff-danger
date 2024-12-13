@@ -2,7 +2,7 @@
 
 require_relative '../block_owner_rule'
 
-module FfDanger
+module ForwardFinancingDanger
   class BlockOwnerRule
     class Config
       class ConfigurationError < StandardError; end

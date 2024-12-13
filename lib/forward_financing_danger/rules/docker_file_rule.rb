@@ -2,8 +2,8 @@
 
 require_relative './rule'
 
-module FfDanger
-  class DockerFileRule < FfDanger::Rule
+module ForwardFinancingDanger
+  class DockerFileRule < ForwardFinancingDanger::Rule
     def check!
       changed_files.each do |file|
         # is file a Dockerfile?

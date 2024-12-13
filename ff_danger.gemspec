@@ -6,7 +6,7 @@ require 'ff_danger/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'ff_danger'
-  spec.version       = FfDanger::VERSION
+  spec.version       = ForwardFinancingDanger::VERSION
   spec.authors       = ['Tony Schaffert']
   spec.email         = ['tschaffert@forwardfinancing.com']
 

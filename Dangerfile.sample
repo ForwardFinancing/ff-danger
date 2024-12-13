@@ -6,4 +6,4 @@ rules = YAML.safe_load(File.read('./config/Ff_dange/rules.yml')).fetch('rules', 
 
 require 'ff_danger'
 
-FfDanger::Rules.new(self, rules).check!
+ForwardFinancingDanger::Rules.new(self, rules).check!

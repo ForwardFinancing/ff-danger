@@ -2,8 +2,8 @@
 
 require_relative './rule'
 
-module FfDanger
-  class DeleteAllRule < FfDanger::Rule
+module ForwardFinancingDanger
+  class DeleteAllRule < ForwardFinancingDanger::Rule
     def check!
       changed_files.each do |path|
         lines_from_file(path).each do |line|

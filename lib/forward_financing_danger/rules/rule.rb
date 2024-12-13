@@ -4,7 +4,7 @@ require 'active_support/core_ext/module/delegation'
 require 'active_support/core_ext/object/blank'
 require 'git_diff_parser'
 
-module FfDanger
+module ForwardFinancingDanger
   class ConfigError < StandardError; end
 
   class Rule

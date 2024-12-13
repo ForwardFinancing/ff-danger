@@ -2,7 +2,7 @@
 
 require 'parser/current'
 
-module FfDanger
+module ForwardFinancingDanger
   class ASTStack
     def initialize(text, lines)
       @ast   = Parser::CurrentRuby.parse(text)

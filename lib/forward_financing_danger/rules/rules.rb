@@ -2,7 +2,7 @@
 
 require 'active_support/core_ext/hash/indifferent_access'
 
-module FfDanger
+module ForwardFinancingDanger
   class Rules
     def initialize(handler, included_rules=[], rules_config={})
       @handler = handler

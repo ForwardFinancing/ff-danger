@@ -2,7 +2,7 @@
 
 require_relative '../block_owner_rule'
 
-module FfDanger
+module ForwardFinancingDanger
   class BlockOwnerRule
     class Scanner
       Candidate = Struct.new(:config, :path, :lines)

@@ -2,7 +2,7 @@
 
 require 'base64'
 
-module FfDanger
+module ForwardFinancingDanger
   class GithubRemote
     class FailedToFetch < StandardError; end
 

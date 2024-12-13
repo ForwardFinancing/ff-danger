@@ -2,8 +2,8 @@
 
 require_relative './rule'
 
-module FfDanger
-  class BigFileRule < FfDanger::Rule
+module ForwardFinancingDanger
+  class BigFileRule < ForwardFinancingDanger::Rule
 
     FILE_LIMIT = 500
 
