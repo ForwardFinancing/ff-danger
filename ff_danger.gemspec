@@ -2,10 +2,10 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ff_danger/version'
+require 'forward_financing_danger/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'ff_danger'
+  spec.name          = 'forward_financing_danger'
   spec.version       = ForwardFinancingDanger::VERSION
   spec.authors       = ['Tony Schaffert']
   spec.email         = ['tschaffert@forwardfinancing.com']

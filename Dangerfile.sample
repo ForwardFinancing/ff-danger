@@ -4,6 +4,6 @@ require 'yaml'
 
 rules = YAML.safe_load(File.read('./config/Ff_dange/rules.yml')).fetch('rules', [])
 
-require 'ff_danger'
+require 'forward_financing_danger'
 
 ForwardFinancingDanger::Rules.new(self, rules).check!

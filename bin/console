@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'ff_danger'
+require 'forward_financing_danger'
 
 require 'irb'
 IRB.start(__FILE__)
