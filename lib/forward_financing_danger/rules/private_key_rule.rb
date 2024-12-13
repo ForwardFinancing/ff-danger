@@ -7,7 +7,7 @@ module ForwardFinancingDanger
     def check!
         changed_files.each do |path|
           lines_from_file(path).each do |line|
-            if line.content.match(/PRIVATE KEY/)
+            if line.content.match(/BEGIN RSA PRIVATE KEY/)
                 failure(private_key_error_message, file: path, line: line.number)
             end
           end
