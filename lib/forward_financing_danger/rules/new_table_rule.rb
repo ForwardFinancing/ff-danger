@@ -17,7 +17,7 @@ module ForwardFinancingDanger
     def check!
       puts "Checking for new tables..."
       if added_migrations.any? { |migration| create_table?(migration) }
-        warning(MESSAGE)
+        warn(MESSAGE)
       end
     end
   end
